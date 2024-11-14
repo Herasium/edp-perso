@@ -1,0 +1,28 @@
+# IDE config file
+.vscode/
+.idea/
+
+# nodeJS dependencies
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+# packager files
+# package-lock.json
+# package.json
+
+# useless dependencies
+replit.nix
+.replit
+
+# vite-config file
+*.mjs
+tsconfig.json
+# vite.config.js
+
+# other
+build_history
+local/
+test_grades.json

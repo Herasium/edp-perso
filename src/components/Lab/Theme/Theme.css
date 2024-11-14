@@ -1,0 +1,15 @@
+#theme #theme-container {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: rgb(var(--background-color-1)); */
+    padding: 50px clamp(10px, calc(4vw - 5px), 30px);
+    padding-bottom: 30px;
+    /* box-shadow: var(--box-shadow-window); */
+}
+#theme #theme-container h1 {
+    font-size: var(--font-size-32);
+    text-align: center;
+    margin-bottom: 50px;
+}
